@@ -28,7 +28,7 @@ namespace TPBowling
             //Get the total score of the game. 
             _score.Score = _score.TotalScore();
 
-            // Format the output according to the exercise instructions. 
+            // Format the output according to the exercise instructions mentioned. 
             var outputString = _game.OutputFormat(strInput, Settings.Spares);
 
             Console.WriteLine("\n| f1 | f2 | f3 | f4 | f5 | f6 | f7 | f8 | f9 | f10 | ");
